@@ -1,19 +1,19 @@
 {
     "education":[
         {
-            "title": "Jun 20XX - Jun 20YY",
-            "cardTitle": "B.Tech, Computer Science",
-            "cardSubtitle":"XYZ University, City",
-            "cardDetailedText": "CGPA - 9.5",
+            "title": "Fall 2022 - Fall 2025",
+            "cardTitle": "Computer Science",
+            "cardSubtitle":"CUNY Queens College, Flushing NY",
+            "cardDetailedText": "",
             "icon" : {
                 "src": "images/education/lorem-ipsum.png"
             }
         },
         {
-            "title": "Apr 20XX",
+            "title": "Fall 2016 - Spring 2020",
             "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%"
+            "cardSubtitle":"Thomas A. Edison CTE HS Jamiaca, NY",
+            "cardDetailedText": ""
         }
     ]
 }

@@ -10,8 +10,16 @@
                     "title": "Java"
                 },
                 {
-                    "icon": "images/skills/php.png",
-                    "title": "PHP"
+                    "icon": "images/skills/c-plus-plus.svg",
+                    "title": "C++"
+                },
+                {
+                    "icon": "images/skills/firebase.png",
+                    "title": "Firebase"
+                },
+                {
+                    "icon": "images/skills/mongo-db.png",
+                    "title": "MongoDB"
                 },
                 {
                     "icon": "images/skills/js.png",

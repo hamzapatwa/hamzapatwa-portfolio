@@ -2,15 +2,15 @@
     "social": [
         {
             "network" : "linkedin",
-            "href": "https://linkedin.com/"
+            "href": "https://www.linkedin.com/in/hamza-patwa/"
         },
         {
             "network" : "github",
-            "href": "https://github.com/mayankagarwal09"
+            "href": "https://github.com/hamzapatwa"
         },
         {
             "network" : "email",
-            "href": "mailto:test@test.com"
+            "href": "mailto:patwahamza02@gmail.com"
         }
     ]
 }
