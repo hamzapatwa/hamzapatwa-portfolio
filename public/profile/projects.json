@@ -3,7 +3,7 @@
         {
             "image" : "images/projects/tmed.png",
             "title": "The Telemedicine App",
-            "bodyText": "- AI medical app made in with **Next.js**, **Firebase**, and the **OpenAI API**.\n -  User authentication and role-based access control with **Firebase Authentication.**\n - **Real-time chat functionality** for users using Firestore listeners, and chat managment system for up to 100 past chats.",
+            "bodyText": "- AI medical app made in with **Next.js**, **Firebase**, and the **OpenAI API**.\n -  User authentication and role-based access control with **Firebase Authentication.**\n - **Real-time chat functionality** for users using Firestore listeners, and chat management system for up to 100 past chats.",
             "links": [
                 {
                     "text": "GitHub",
@@ -39,7 +39,7 @@
                 "Next.js",
                 "Google Gemini",
                 "JavaScript"
-               
+
             ]
         },
         {
