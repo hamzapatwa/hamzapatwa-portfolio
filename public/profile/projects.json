@@ -1,6 +1,25 @@
 {
     "projects" : [
         {
+            "image" : "images/projects/pbr.png",
+            "title": "ML-Powered Stock Trading and Backtesting Platform ",
+            "bodyText": "- An advanced algorithmic trading platform using **Python, Flask**, and **machine learning** models such as **Logistic Regression,** Random Forest, and MLP **(artificial neural networks)** for predictive analytics on historical stock data.\n -  **Engineered technical indicators** including **Moving Averages, RSI, and MACD** to enhance model predictions and optimize decision-making for buy/sell/hold actions.\n - Backtested strategies on 5 years of data, achieving portfolio returns **50% above the S&P 500**.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/hamzapatwa/StockMarketML/tree/main"
+                }
+            
+            ],
+            "tags" : [
+                "Python",
+                "Flask",
+                "Machine Learning",
+                "TailwindCSS"
+            ]
+        },
+
+        {
             "image" : "images/projects/tmed.png",
             "title": "The Telemedicine App",
             "bodyText": "- AI medical app made in with **Next.js**, **Firebase**, and the **OpenAI API**.\n -  User authentication and role-based access control with **Firebase Authentication.**\n - **Real-time chat functionality** for users using Firestore listeners, and chat management system for up to 100 past chats.",
