@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--
+    ============================================================
+    To customize this portfolio, edit config.js only.
+    • Content, links, and data  → config.js
+    • Colors and theme          → config.js  (CONFIG.theme)
+    • Styles and layout         → styles.css
+    • Animations and rendering  → main.js
+    ============================================================
+  -->
+
+  <!-- Fallback title/description — overridden by config.js via JS -->
+  <title>Portfolio</title>
+  <meta name="description" content="Software Engineer Portfolio" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+
+  <!-- GSAP + ScrollTrigger -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <!-- Lenis smooth scroll -->
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Config: sets all data + applies theme CSS vars immediately -->
+  <script src="config.js"></script>
+</head>
+<body>
+
+  <!-- Grain texture overlay (decorative, always present) -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- Custom cursor (static — cursor setup in main.js reads these) -->
+  <div class="cursor-dot"  aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+
+  <!-- Loader (static — must exist before main.js renders the app) -->
+  <div class="loader" id="loader">
+    <span class="loader-count" id="loaderCount">0</span>
+    <div class="loader-bar-wrap">
+      <div class="loader-bar-fill" id="loaderBarFill"></div>
+    </div>
+    <span class="loader-label">Loading Portfolio</span>
+  </div>
+
+  <!-- App shell — all sections are injected here by main.js -->
+  <main id="app"></main>
+
+  <!-- Main script: renders from CONFIG, runs all animations -->
+  <script src="main.js"></script>
+
+</body>
+</html>
