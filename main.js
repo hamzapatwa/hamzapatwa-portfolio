@@ -494,7 +494,8 @@ function initScrollAnimations() {
     '.contact-socials',
     '.contact .btn',
   ], {
-    scrollTrigger: { trigger: '.contact', start: 'top 72%' },
+    scrollTrigger: { trigger: '.contact', start: 'top bottom', once: true },
+    immediateRender: false,
     opacity: 0, y: 48, duration: 0.9, ease: 'power2.out', stagger: 0.1,
   });
 }
@@ -534,5 +535,7 @@ document.addEventListener('DOMContentLoaded', () => {
   startLoader(() => {
     initScrollAnimations();   // GSAP ScrollTrigger — runs after loader
     initCardTilt();           // project card 3D tilt
+    // Recalculate all trigger positions after the loader has fully left the DOM
+    requestAnimationFrame(() => ScrollTrigger.refresh());
   });
 });
